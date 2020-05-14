@@ -1,7 +1,6 @@
 const Knex = require('knex')
 const _auth = require('./auth')
 
-
 const prefix = (props, table) => Object.keys(props).reduce((acc, x) => {
   acc[table + '.' + x] = props[x]
   return acc
