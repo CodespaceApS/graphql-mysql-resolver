@@ -1,0 +1,13 @@
+{
+  "name": "graphql-mysql-resolver",
+  "version": "0.0.1",
+  "description": "Helper for mysql resolver. (beta)",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.20.11",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0"
+  },
+  "author": "Codespace ApS",
+  "license": "MIT"
+}
